@@ -1,0 +1,6 @@
+
+mainmenu:
+  home:
+    url: "/"
+    text: "Home"
+    icon_class: "fa-home"
