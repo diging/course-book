@@ -6,7 +6,7 @@ title: Tags
 {% for post in site.tags['development-setup'] %}
   <h2 class='tag-header'>Development Setup</h2>
   <ul>
-    <li class="active"><a href="{{post.url}}" class="active">{{post.title}}</a>
+    <li class="active"><a href="{{post.url | prepend: site.baseurl}}" class="active">{{post.title}}</a>
     	<br><i class="fa fa-calendar"></i> <time>{{ post.date | date:'%A, %B %d, %Y'}}</time>
          
     </li>

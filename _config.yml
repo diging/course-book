@@ -4,7 +4,7 @@ title: DigInG Course Book
 description: "Site Description"
 logo_location: "/assets/img/diging-logo.png"
 
-#baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/course-book" # the subpath of your site, e.g. /blog/
 #url: "" # the base hostname & protocol for your site
 
 # Build settings
