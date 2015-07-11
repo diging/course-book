@@ -3,7 +3,11 @@ layout: default
 date: 2014-10-19 23:51
 ---
 <div class="row">
+
   <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+    <h1>DigInG Course Book</h1>
+    <p>The following short posts are designed to give you information about what we think you need to know working on our projects. We will continue to add information as we go along, and welcome any feedback about understandability or missing information. We hope this site will act as a clearing house for DigInG information and will make your life a little easier. :)</p>
+
     {% for post in site.posts %}
       <div class="blog-short">
         <h3><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
