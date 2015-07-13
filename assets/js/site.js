@@ -27,10 +27,10 @@ $.ajax({
 
 $("#search_button").click(function(event) {
 	div = $(this).closest('#search_div');
-	box = div.find("#search_box")
+	box = div.find("#search_box");
 	term = $(box).first().val();
 	window.location.href = $(this).attr("data-href") + "?query=" + escape(term);
-})
+});
 
 function show_results(catalog){
 	var vars = [], hash;
@@ -52,8 +52,7 @@ function show_results(catalog){
 		url = element.ref;
 		title = catalog[url]["title"];
 		excerpt = catalog[url]["excerpt"];
-		//results = store.map(function(elem) {return elem.ref == element.ref});
-
+		
 		var text = "<li><a href=\"{{ site.baseurl }}/" + url + "\">" + title + "</a><br>" + decodeURI(excerpt) + "</li>";
 		$("#search_results").append(text);
 	});
