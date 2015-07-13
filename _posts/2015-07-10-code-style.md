@@ -6,7 +6,7 @@ title: Code Style
 published: true
 ---
 
-For Java code, we will follow Google's code style guidelines. Please read up on the [guidelines](http://google.github.io/styleguide/javaguide.html). The only rule we change is the indentation. Instead of an indentation of 2, we use 4 spaces to indent the next level.
+For Java code, we will follow Google's code style guidelines. Please read up on the [guidelines](http://google.github.io/styleguide/javaguide.html). The only rule we change is the indentation. Instead of an indentation of 2, we use 4 spaces to indent the next level. 
 
 You can set your Eclipse preferences to only use spaces (and avoid tabs) by doing the following:
 
@@ -19,3 +19,4 @@ You can set your Eclipse preferences to only use spaces (and avoid tabs) by doin
 1. Make sure "Indentation size" is set to 4.
 1. Click ok.
 1. Close the preference dialog.
+

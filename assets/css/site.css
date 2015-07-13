@@ -114,3 +114,11 @@ body {
   text-align: center;
 }
 
+#search_div {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+#search_div #search_box {
+  /*width: 90%;*/
+}
