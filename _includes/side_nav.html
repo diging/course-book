@@ -10,13 +10,13 @@
 
   {% if tags_list.first[0] == null %}
     {% for tag in tags_list %}
-      <a href="{{site.baseurl}}/tag-pages/{{ tag[0] }}.html" class='list-group-item'>
+      <a href="{{site.baseurl}}/tag-pages/{{ tag[0] | downcase }}.html" class='list-group-item'>
         {{ tag }} <span class='badge'>{{ site.tags[tag].size }}</span>
       </a>
     {% endfor %}
   {% else %}
     {% for tag in tags_list %}
-      <a href="{{site.baseurl}}/tag-pages/{{ tag[0] }}.html" class='list-group-item'>
+      <a href="{{site.baseurl}}/tag-pages/{{ tag[0] | downcase }}.html" class='list-group-item'>
         {{ tag[0] | replace:'-',' ' }} <span class='badge'>{{ tag[1].size }}</span>
       </a>
     {% endfor %}
