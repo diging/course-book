@@ -86,6 +86,7 @@ body {
 }
 .margin10{margin-bottom:10px; margin-right:10px;}
 .lessmargintop { margin-top: -30px;}
+.margin-bottom-10 { margin-bottom: 10px;}
 
 /*footer*/
 .footer {
@@ -127,4 +128,8 @@ body {
 
 #search_div #search_box {
   /*width: 90%;*/
+}
+
+#search_results li {
+  padding-bottom: 5px;
 }
