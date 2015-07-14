@@ -9,11 +9,7 @@ layout: default
       <header class="page-header">
         <h3 class="page-title">{{ page.title }}</h3>
         <div class="post-metadata">
-          <div> <i class="fa fa-calendar"></i>
-            <time>
-              {{ page.date | date:'%A, %B %d, %Y'}}
-            </time>
-          </div>
+          
           <div> <i class="fa fa-tag"></i>
               {% for tag in page.tags %}
               <a href="{{site.baseurl}}/tag-pages/{{ tag }}.html">
@@ -28,6 +24,12 @@ layout: default
       <article class="page-content">
         {{ content }}
       </article>
+
+      <div id="date-footer"> Published: <i class="fa fa-calendar"></i>
+        <time>
+          {{ page.date | date:'%A, %B %d, %Y'}}
+        </time>
+      </div>
     </div>
   </div>
 </div>

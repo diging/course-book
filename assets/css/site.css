@@ -78,14 +78,14 @@ body {
 /*blog stuff */
 .blog-short{
   border-bottom:1px solid #ddd;
-  padding-bottom:30px;
+  /*padding-bottom:30px;*/
 
 }
 .blog-short .excerpt{
   min-height:100px;
 }
 .margin10{margin-bottom:10px; margin-right:10px;}
-
+.lessmargintop { margin-top: -30px;}
 
 /*footer*/
 .footer {
@@ -112,6 +112,12 @@ body {
 }
 .centered-text{
   text-align: center;
+}
+
+#date-footer {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 11px;
 }
 
 #search_div {
