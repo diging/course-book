@@ -3,12 +3,12 @@ layout: tag
 title: Software Development
 ---
 
-{% for post in site.tags['Software-Development'] %}
   <ul>
+      {% for post in site.tags['Software-Development'] %}
+
     <li class="active"><a href="{{post.url | prepend: site.baseurl}}" class="active">{{post.title}}</a>
     	<br>
          <article class="excerpt">{{post.excerpt}}</article>
     </li>
-  </ul>
 {% endfor %}
- 
+  </ul>
