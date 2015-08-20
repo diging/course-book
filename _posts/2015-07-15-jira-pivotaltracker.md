@@ -6,4 +6,4 @@ title: Issue Tracking
 published: true
 ---
 
-We use several different issue tracking systems for our projects. Depending on what project you are working on, you will need an account in [Jira](https://nexuslab.atlassian.net/) and/or [Pivotaltracker](http://www.pivotaltracker.com/). Once you have created an account let us know what your username is and we will add you to our projects.
+We use several different issue tracking systems for our projects. Depending on what project you are working on, you will need an account in [Jira](https://diging.atlassian.net/) and/or [Pivotaltracker](http://www.pivotaltracker.com/). Once you have created an account let us know what your username is and we will add you to our projects.
