@@ -168,15 +168,15 @@ Now that your branch exists on both your local repository and the remote reposit
 
 You should also be able to see your changes on GitHub.com. Go to the repository at [https://github.com/diging/getting-started](https://github.com/diging/getting-started), and click on [branches](https://github.com/diging/getting-started/branches). You should see your branch under "Your branches":
 
-<img src="/assets/img/github/14D811E8-0F6F-4C71-B73F-A7CA06557247.png" style="width: 100%;" />
+<img src="{{ "/assets/img/github/14D811E8-0F6F-4C71-B73F-A7CA06557247.png" | prepend: site.baseurl }}" style="width: 100%;" />
 
 If you click on the name of your branch, you'll be taken to a page that looks a lot like the front page of the repository. But if you look closely, you'll see that your branch is selected, and your changes should show up in the README.
 
-<img src="/assets/img/github/F108EA54-65B8-47DB-8234-FDFFACD3E123.png" style="width: 100%;" />
+<img src="{{ "/assets/img/github/F108EA54-65B8-47DB-8234-FDFFACD3E123.png" | prepend: site.baseurl }}" style="width: 100%;" />
 
 The final step in contributing your changes to the project is to create a **pull request**. A pull request is essentially a request to merge your branch back into the main project branch. To create a pull request for your branch, click the green "Compare & Pull Request" button. You should be taken to a page that looks something like this:
 
-<img src="/assets/img/github/417B4D9A-DC02-4396-BC5A-A6BC2B903E7F.png" style="width: 100%;" />
+<img src="{{ "/assets/img/github/417B4D9A-DC02-4396-BC5A-A6BC2B903E7F.png" | prepend: site.baseurl }}" style="width: 100%;" />
 
 There are several things to notice here. Toward the top, you should see two drop-down menus titled **base** and **compare**. The "base" branch is the branch that you want to merge your changes into. The "compare" branch is the branch that contains your changes. GitHub automatically checks to see whether the changes in the "compare" branch can be merged into the "base" branch without creating any conflicts.
 
@@ -186,13 +186,13 @@ In the middle of the page is a comment field. The title is automatically taken f
 
 If all goes well, you should see something like this:
 
-<img src="/assets/img/github/8C68BFD2-14C8-4DA7-83A2-67C95C3FB5BA.png" style="width: 100%;" />
+<img src="{{ "/assets/img/github/8C68BFD2-14C8-4DA7-83A2-67C95C3FB5BA.png" | prepend: site.baseurl }}" style="width: 100%;" />
 
 Other participants in the project can now comment on your work, and discuss whether or not your changes should be incorporated into the main branch. It is up to the project owner to click the green "Merge pull request" button (you might not see this button if you don't have authorization).
 
 Once the pull request has been approved and the branches merged, your pull request page should change to look like this:
 
-<img src="/assets/img/github/00C62E90-B379-4EC8-ACEA-BE712337A1F1.png" style="width: 100%;" />
+<img src="{{ "/assets/img/github/00C62E90-B379-4EC8-ACEA-BE712337A1F1.png" | prepend: site.baseurl }}" style="width: 100%;" />
 
 Now that your branch has been merged successfully, you can click the "Delete branch" button. For your next contribution, you'll create an entirely new branch!
 
