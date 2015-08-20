@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: python-projects development-setup
+tags: Python-Projects Development-Setup
 date: 2015-08-19 15:10
 title: Testing in Python Projects
 published: true

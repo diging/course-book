@@ -1,10 +1,6 @@
 ---
 layout: post
-<<<<<<< HEAD
-tags: python-projects development-setup
-=======
 tags: Python-Projects
->>>>>>> origin/gh-pages
 date: 2015-08-19 13:28
 title: Python Code Cleanliness - PEP8
 published: true

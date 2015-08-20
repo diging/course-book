@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: development-setup getting-started
+tags: Development-Setup Getting-Started
 date: 2015-08-19 15:10
 title: Intro to Git
 published: true
