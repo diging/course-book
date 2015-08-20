@@ -1,13 +1,13 @@
 ---
-layout: page
+layout: tag
 title: Getting Started
 ---
 
 <ul>
   {% for post in site.tags['Getting-Started'] %}
-  <li class="active"><a href="{{post.url}}" class="active">{{post.title}}</a>
-      <br><i class="fa fa-calendar"></i> <time>{{ post.date | date:'%A, %B %d, %Y'}}</time>
-
+  <li class="active"><a href="{{post.url | prepend: site.baseurl}}" class="active">{{post.title}}</a>
+      <br>
+       <article class="excerpt">{{post.excerpt}}</article>
   </li>
   {% endfor %}
 </ul>

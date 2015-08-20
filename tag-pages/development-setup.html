@@ -2,12 +2,13 @@
 layout: tag
 title: Development Setup
 ---
-
-{% for post in site.tags['Development-Setup'] %}
   <ul>
+{% for post in site.tags['Development-Setup'] %}
+
     <li class="active"><a href="{{post.url | prepend: site.baseurl}}" class="active">{{post.title}}</a>
     	<br>
          <article class="excerpt">{{post.excerpt}}</article>
     </li>
-  </ul>
+
 {% endfor %}
+</ul>

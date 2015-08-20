@@ -2,12 +2,13 @@
 layout: tag
 title: Python Projects
 ---
-
+<ul>
 {% for post in site.tags['Python-Projects'] %}
-  <ul>
+
     <li class="active"><a href="{{post.url  | prepend: site.baseurl}}" class="active">{{post.title}}</a>
     	<br>
         <article class="excerpt">{{post.excerpt}}</article>
     </li>
-  </ul>
+
 {% endfor %}
+</ul>
