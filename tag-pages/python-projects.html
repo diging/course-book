@@ -1,14 +1,13 @@
 ---
 layout: page
-title: Tags
+title: Python Projects
 ---
 
-{% for post in site.tags['python-projects'] %}
-  <h2 class='tag-header'>Python Projects</h2>
+{% for post in site.tags['Python-Projects'] %}
   <ul>
-    <li class="active"><a href="{{post.url}}" class="active">{{post.title}}</a>
-    	<br><i class="fa fa-calendar"></i> <time>{{ post.date | date:'%A, %B %d, %Y'}}</time>
-
+    <li class="active"><a href="{{post.url  | prepend: site.baseurl}}" class="active">{{post.title}}</a>
+    	<br>
+        <article class="excerpt">{{post.excerpt}}</article>
     </li>
   </ul>
 {% endfor %}
