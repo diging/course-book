@@ -1,21 +1,26 @@
 <div id="side_nav">
 <div class='list-group'>
+  <div id="search_div">
+    Search: <input type="text" id="search_box">
+    <a data-href="{{site.baseurl}}/search.html" id="search_button"><i class="fa fa-search"></i></a>
+  </div>
+
+
   {% assign tags_list = site.tags %}
 
   {% if tags_list.first[0] == null %}
     {% for tag in tags_list %}
-      <a href="/tag-pages/{{ tag[0] }}.html" class='list-group-item'>
+      <a href="{{site.baseurl}}/tag-pages/{{ tag[0] | downcase }}.html" class='list-group-item'>
         {{ tag }} <span class='badge'>{{ site.tags[tag].size }}</span>
       </a>
     {% endfor %}
   {% else %}
     {% for tag in tags_list %}
-      <a href="/tag-pages/{{ tag[0] }}.html" class='list-group-item'>
-        {{ tag[0] }} <span class='badge'>{{ tag[1].size }}</span>
+      <a href="{{site.baseurl}}/tag-pages/{{ tag[0] | downcase }}.html" class='list-group-item'>
+        {{ tag[0] | replace:'-',' ' }} <span class='badge'>{{ tag[1].size }}</span>
       </a>
     {% endfor %}
   {% endif %}
 
-  {% assign tags_list = nil %}
 </div>
 </div>

@@ -1,6 +1,10 @@
 
 mainmenu:
   home:
-    url: "/"
+    url: "/course-book/"
     text: "Home"
     icon_class: "fa-home"
+  github:
+    url: "https://github.com/diging"
+    text: "GitHub"
+    icon_class: "fa-github"

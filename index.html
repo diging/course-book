@@ -3,23 +3,20 @@ layout: default
 date: 2014-10-19 23:51
 ---
 <div class="row">
+
   <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+    <h1>DigInG Course Book</h1>
+    <p>The following short posts are designed to give you information about what we think you need to know working on our projects. We will continue to add information as we go along, and welcome any feedback about understandability or missing information. We hope this site will act as a clearing house for DigInG information and will make your life a little easier. :)</p>
+
     {% for post in site.posts %}
       <div class="blog-short">
         <h3><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
-		<div>
-		  <small>
-			<i class="fa fa-calendar"></i>
-			<time>
-        {{ post.date | date:'%A, %B %d, %Y'}}
-			</time>
-		  </small>
-         </div>
-		<div class="margin10">
+		
+		  <div class="margin10">
           <small>
             <i class="fa fa-tag"></i>
             {% for tag in post.tags %}
-            <a href="/tag-pages/{{ tag }}.html">
+            <a href="/course-book/tag-pages/{{ tag }}.html">
               <span class="label label-primary">{{tag}}</span>
             </a>
             {% endfor %}
@@ -30,7 +27,7 @@ date: 2014-10-19 23:51
           alt="{{post.title}}"  class="pull-left img-responsive thumb margin10 img-thumbnail" />
         {% endif %}
         <article class="excerpt">{{post.excerpt}}</article>
-        <a class="pull-right marginBottom10" href="{{post.url | prepend: site.baseurl }}">Read More</a>
+        <a class="pull-right marginBottom10 lessmargintop" href="{{post.url | prepend: site.baseurl }}">Read More</a>
       </div>
     {% endfor %}
   </div>

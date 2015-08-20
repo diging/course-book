@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: development-setup
+tags: Development-Setup
 date: 2015-07-10 11:00
 title: Code Style
 published: true
