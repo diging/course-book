@@ -1,7 +1,7 @@
 
 mainmenu:
   home:
-    url: "/"
+    url: "/course-book/"
     text: "Home"
     icon_class: "fa-home"
   github:
