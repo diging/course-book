@@ -12,3 +12,7 @@ mainmenu:
     url: "/course-book/attachments/Fall2015-Syllabus-Final-15-08-09.pdf"
     text: "Syllabus"
     icon_class: "fa-file-pdf-o"
+  calendar:
+    url: "/course-book/calendar.html"
+    text: "Course Calendar"
+    icon_class: "fa-calendar"
