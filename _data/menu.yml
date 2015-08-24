@@ -8,3 +8,7 @@ mainmenu:
     url: "https://github.com/diging"
     text: "GitHub"
     icon_class: "fa-github"
+  syllabus:
+    url: "/course-book/attachments/Fall2015-Syllabus-Final-15-08-09.pdf"
+    text: "Syllabus"
+    icon_class: "fa-file-pdf-o"
