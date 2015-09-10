@@ -403,3 +403,36 @@ Whoohoo, you made it through the whole tutorial! Now, it's time for you to fly o
 - Last but not least, add your app a repository in your GitHub account and send us a link so we can look at it.
 
 :)
+
+### Comments/Updates
+
+#### Removing pom.properties/additonal pom.xml
+
+If you notice that you have an additional folder in your project that contains additional **pom.properites** and **pom.xml** files (in my case it duplicated the complete directory structure to my project folder starting with "/Users/...") that **are not** your actual POM files, it is likely Maven's fault. If you want Maven to stop creating those files/directories, add the following to your **pom.xml** inside the **build** tag:
+
+    <plugins>
+    	<plugin>
+    		<artifactId>maven-jar-plugin</artifactId>
+    		<configuration>
+    			<archive>
+    				<addMavenDescriptor>false</addMavenDescriptor>
+    			</archive>
+    		</configuration>
+    	</plugin>
+    </plugins>
+
+Your whole **build** tag (it should come right after your **dependencies** tag) should look like this:
+
+    <build>
+    	<finalName>one</finalName>
+    	<plugins>
+    		<plugin>
+    			<artifactId>maven-jar-plugin</artifactId>
+    			<configuration>
+    				<archive>
+    					<addMavenDescriptor>false</addMavenDescriptor>
+    				</archive>
+    			</configuration>
+    		</plugin>
+    	</plugins>
+    </build>
