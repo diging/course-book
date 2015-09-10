@@ -238,7 +238,7 @@ Restart your Tomcat or redeploy your application. It should start up without err
 
 ## The first controller
 
-Let's get started with the first controller. First, create a package called asu.edu.diging.tutorial.spring.web in your Java source folder (under Java Resources > src/main/java). In this package, create a class called HomeController.
+Let's get started with the first controller. First, create a package called edu.asu.diging.tutorial.spring.web in your Java source folder (under Java Resources > src/main/java). In this package, create a class called HomeController.
 
 ![HomeController]({{ site.baseurl }}/assets/img/spring/home-controller.png)
 
