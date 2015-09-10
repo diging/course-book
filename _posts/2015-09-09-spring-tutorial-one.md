@@ -361,6 +361,8 @@ What did you just do? First we "autowired" our new service class MoodService usi
 Speaking of which. Let's open our JSP page and edit it as follows:
 
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+    <%@ page isELIgnored="false" %>
+
     <html>
     <body>
     <h2>Hello World!</h2>
