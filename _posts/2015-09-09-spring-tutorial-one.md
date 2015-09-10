@@ -99,19 +99,18 @@ Now, you are all setup to start with Spring. First, you need to tell Tomcat that
 In addition, remove the **!DOCTYPE** declation and replace the **web-app** tag with:
 
     <web-app id="WebApp_ID" version="2.3"
-        xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns="http://java.sun.com/xml/ns/javaee"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
         http://java.sun.com/xml/ns/j2ee/web-app_2_3.xsd">
 
 Your file should now look like this:
 
-    <web-app id="WebApp_ID" version="2.4"
-        xmlns="http://java.sun.com/xml/ns/j2ee"
+    <web-app id="WebApp_ID" version="2.3"
+        xmlns="http://java.sun.com/xml/ns/javaee"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
-        http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
-      <display-name>Archetype Created Web Application</display-name>
+        http://java.sun.com/xml/ns/j2ee/web-app_2_3.xsd">
 
         <servlet>
             <servlet-name>dispatcher</servlet-name>
