@@ -16,6 +16,10 @@ mainmenu:
     url: "/course-book/lectureNotes.html"
     text: "Lecture Notes"
     icon_class: "fa-files-o"
+  course_info:
+    url: "/course-book/course-info.html"
+    text: "Course Info"
+    icon_class: "fa-info"
   calendar:
     url: "/course-book/calendar.html"
     text: "Course Calendar"
